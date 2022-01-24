@@ -7,8 +7,22 @@
     <title>Responsive Navbar</title>
 </head>
 <body>
-    <h1>Responsive Navbar</h1>
-
+    <nav class="navbar">
+        <div class="brand-title">Brand Name</div>
+        <!-- This gonna be the hamburguer menu -->
+        <a data-js="toggle-btn" href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div data-js="navbar-links" class="navbar-links">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
     <script src="app.js"></script>
 </body>
 </html>
